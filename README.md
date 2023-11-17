@@ -15,11 +15,9 @@ All traces are collected in static indoor environments, including 4 locations: c
 | office     | 5GHz WiFi 5 (802.11ac) | 20          | 7.282~29.124           | 15.532      | 6.334       |
 | restaurant | 5GHz WiFi 6 (802.11ax) | 20          | 9.362~9.807            | 9.567       | 0.133       |
 
-```javascript
 <p align="left">
     <img src="trace_bw_cdf.png" width="40%">
 </p>
-```
 
 ## Dataset Format
 
