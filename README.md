@@ -6,7 +6,7 @@ We used iPerf v3.1.3 to measure and record the WiFi link bandwidth. The client a
 
 ## Dataset Statistics
 
-All traces are collected in static indoor environments, including 4 locations: cafe, campus, office, and restaurant. Each trace lasts 200 seconds, with a granularity of 1 second. Detailed information is shown in the following table and figure:
+All traces are collected in static indoor environments, including 4 locations: cafe, campus, office, and restaurant. Each trace lasts 200 seconds, with a granularity of 1 second. Detailed information is shown in the following table and figure (here, the bandwidth indicates the average value of each trace):
 
 | Location   | WiFi Information       | Trace Count | Bandwidth Range (Mbps) | Avg. (Mbps) | Std. (Mbps) |
 | ---------- | ---------------------- | ----------- | ---------------------- | ----------- | ----------- |
