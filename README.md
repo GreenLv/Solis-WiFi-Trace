@@ -2,11 +2,11 @@ This repository releases a dataset of 80 WiFi bandwidth traces collected in Nove
 
 ## Measurement Methodology 
 
-We used iPerf v3.1.3 to measure and record the WiFi link bandwidth. The client and server are located in Beijing and running Ubuntu 18.04. The server command is: ``iperf3 -s -p [SERVER_PORT] -D``, and the client command is: ``iperf3 -c [SERVER_IP] -p [SERVER_PORT] -i 1 -d 200``.
+We used iPerf v3.1.3 to measure and record the WiFi link bandwidth. The client and server are located in Beijing and running Ubuntu 18.04. The server command is: ``iperf3 -s -p [SERVER_PORT] -D``, and the client command is: ``iperf3 -c [SERVER_IP] -p [SERVER_PORT] -i 1 -d 200``. The client runs Python scripts to perform each measurement (see ``scripts/``).
 
 ## Dataset Statistics
 
-All traces are collected in static indoor environments, including 4 locations: cafe, campus, office, and restaurant. Each trace lasts 200 seconds, with a granularity of 1 second. Detailed information is shown in the following table and figure (here, the bandwidth indicates the average value of each trace):
+All traces (``traces/``) are collected in static indoor environments, including 4 locations: cafe, campus, office, and restaurant. Each trace lasts 200 seconds, with a granularity of 1 second. Detailed information is shown in the following table and figure (here, the bandwidth indicates the average value of each trace):
 
 | Location   | WiFi Information       | Trace Count | Bandwidth Range (Mbps) | Avg. (Mbps) | Std. (Mbps) |
 | ---------- | ---------------------- | ----------- | ---------------------- | ----------- | ----------- |
